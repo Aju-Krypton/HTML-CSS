@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Exercise 2</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: #333;
+      }
+      .navbar {
+        background-color: #5c5252;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        padding: 0 10px;
+      }
+      .menu {
+        text-align: center;
+      }
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+      .menu li {
+        margin: 0 10px;
+      }
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+      .menu a:hover {
+        background-color: #7b6e6e;
+      }
+      .search-box {
+        padding: 0 10px;
+      }
+      .search-box input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 5px;
+      }
+      .search-box button {
+        padding: 8px 12px;
+        background-color: #338040;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .search-box button:hover {
+        background-color: #ae4949;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="ExperionLogormbg.png" alt="Logo" height="40" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search..." />
+        <button>Search</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <title>FIRST ASSIGNMENT</title>
+    <style>
+        header{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(77, 138, 77);
+        }
+        h2{
+            color: white;
+        }
+        .href
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .topli{
+            display: inline;
+            padding-bottom: 10px;
+            word-spacing: 7px;
+        }
+        .h3{
+            color: green;
+            font-family: sans-serif;
+        }
+        #contact_info{
+            text-align: center;
+            color: black;
+            background-color: gainsboro;
+            margin-bottom: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        button{
+            padding: 8px;
+        }body{
+            font-family:sans-serif;
+        }
+
+        p{
+            font-size: small;
+        }
+        li{
+            font-size: small;
+        }
+
+        .element{
+            word-spacing: 5px;
+        }
+
+
+ 
+    </style>
+    <body>
+
+        <header><h2>Welcome to Our Website</h2>
+        <nav><a href="#home" class="href"><span class="element">Home</span></a><a href="#about" class="href"><span class="element">About</span></a><a href="#services" class="href"><span class="element">Services</span></a><a href="#contact" class="href"><span class="element">Contact</span></a></nav>
+        </header>
+        <section>
+            <h3 id = "home" class="h3"> Home </h3>
+            <p>This is the homepage of our simple webpage.</p>
+            <img src="Sample.jpg" height="200px">
+        </section>
+        <section>
+            <h3 id = "about" class="h3"> About Us </h3>
+            <p>I am a trainee of experion technologies.</p>
+        </section>
+        <section>
+            <h3 id = "services" class="h3">Our Services </h3>
+            <ul>
+                <li>Front End</li>
+                <li>Back End</li>
+                <li>API</li>
+            </ul>
+        </section>
+        <section id = "contact_info">
+            <h3 id = "contact"> Contact Us </h3>
+            <p>For inquiries, enter the form below</p>
+            <form>
+                <label>Name :</label>
+                <input type="text" required><br>
+                <label>Email :</label>
+                <input type="email" required><br>
+                <button type="submit">Submit</button>
+            </form>
+            <footer><p>&copy;2024 ALL RIGHTS RESERVED</p></footer>
+        </section>      
+    </body>
+</html>

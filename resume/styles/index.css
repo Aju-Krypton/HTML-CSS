@@ -1,0 +1,105 @@
+/* .td1 {
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+.td2 {
+  width: 100%;
+  background-color: white;
+} */
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  width: 70%;
+  padding: 30px;
+}
+hr {
+  border-width: 3px;
+  color: orange;
+  border-style: solid;
+}
+
+.progress-child {
+  height: 20px;
+  width: 20%;
+  background-color: orange;
+  margin-bottom: 30px;
+  padding: 0 !important;
+}
+
+.progress-parent {
+  text-align: center;
+  height: 20px;
+  background-color: grey;
+  margin-bottom: 30px;
+}
+
+.container-right-top {
+  height: 100px;
+  background-color: orange;
+  padding: 40px;
+}
+.pad-t1 {
+  padding-left: 40px;
+}
+.pad-t2 {
+  padding-left: 20px;
+}
+.name {
+  margin: 20px;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  letter-spacing: 6px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right-detail {
+  margin: 30px;
+}
+.year-cell {
+  width: 100px;
+  vertical-align: top;
+}
+.biotext {
+  padding-left: 90px;
+}
+.right-hr {
+  color: black;
+}
+.par-skill {
+  width: 250px;
+  background-color: grey;
+  height: 10px;
+}
+.child-skill {
+  width: 70px;
+  background-color: black;
+  height: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+/* Specific styles for the 'skills' section */
+#skills {
+    grid-column: 1 / span 2;
+}
+
+#skills .skill-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills .skill-row ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills .skill-row li {
+    margin-bottom: 0.5rem;
+}

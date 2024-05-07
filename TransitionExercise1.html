@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Animation Example</title>
+    <style>
+        
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.7s ease;
+}
+
+.box:hover {
+    background-color: rgb(43, 165, 172);
+    transform: rotate(7245deg);
+}
+
+.box p {
+    transform: rotate(-45deg); /* Counter-rotate the text to counter the rotation of the box */
+}
+
+    </style>
+</head>
+<body>
+    <div class="box"><p>Hover over me!</p></div>
+</body>
+</html>
